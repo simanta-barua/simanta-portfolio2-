@@ -49,8 +49,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  background-image: url(../../../src/assets/Home/bg.svg);
-  background-size: cover;
+  
 }
 .profile-parent {
   display: flex;
@@ -102,7 +101,7 @@
 .profile-picture-bg {
   height: 100%;
   width: 100%;
-  background-image: url("./../../assets/Home/profile.png");
+  background-image: url("./../../../../src/assets/Home/profile.png");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -118,7 +117,7 @@
   padding-left: 0px;
 }
 .colz .colz-icon i:hover {
-  transform: scale(2.07);
+  transform: scale(2.07) !important;
   transition: 1s ease-out;
 }
 
