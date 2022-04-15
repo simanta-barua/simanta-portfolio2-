@@ -56,6 +56,9 @@ const Profile = () => {
             <button className="btn highlighted-btn">Get Resume</button>
           </div>
         </div>
+        <div className="profile-picture">
+          <div className="profile-picture-bg"></div>
+        </div>
       </div>
     </div>
   );
